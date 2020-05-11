@@ -57,7 +57,7 @@ Easter holiday.
 
 ### 2020-05-11
 
-[CGO basics]()
+[Go and C](goandc/README.md)
 
 ### Recommended Book
 

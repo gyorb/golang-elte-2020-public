@@ -4,7 +4,7 @@
 
 int query(const char *query, char ***respout) {
   int i, l;
-	char **resp;
+  char **resp;
 
   l = atoi(query);
   if (l <= 0) {
@@ -16,6 +16,6 @@ int query(const char *query, char ***respout) {
     resp[i] = calloc(6, sizeof(char));
     sprintf(resp[i], "r-%03d", i);
   }
-	*respout = resp;
+  *respout = resp;
   return l;
 }
